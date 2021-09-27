@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid whitesmoke;
+}
+
+.header__left > img {
+  object-fit: contain; /* keeps aspect ratio */
+  height: 25px;
+  margin-left: 5px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7; /* makes div take up 70% of the screen */
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.header__middle > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.header__middle > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  font-size: medium;
+}
+
+.header__right {
+  display: flex;
+  padding-right: 20px;
+}
