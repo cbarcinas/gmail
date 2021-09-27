@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <h2>gmail</h2>
+      <h1>gmail clone</h1>
     </div>
   );
 }
